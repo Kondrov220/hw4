@@ -1,0 +1,37 @@
+.box {
+    list-style: none;
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    border: 10px dotted ;
+    padding: 0;
+}
+
+.red {
+    width: 255px;
+    height: 255px;
+    background-color: rgb(255, 136, 136);
+    position: absolute;
+    z-index: 0;
+}
+
+.blue {
+    width: 255px;
+    height: 255px;
+    background-color: rgb(126, 138, 235);
+    position: absolute;
+    z-index: 1;
+    top: 165px;
+    left: 165px;
+}
+
+.green {
+    width: 255px;
+    height: 255px;
+    background-color: rgb(77, 239, 153);
+    position: absolute;
+    z-index: 0;
+    top: 345px;
+    left: 345px;
+}
